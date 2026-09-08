@@ -22,6 +22,16 @@ npm run preview
 
 Mã nguồn đã được cấu hình bằng Vite + React. Thư mục build production là `dist/`.
 
+## Triển khai lên GitHub Pages
+
+Dự án được cấu hình để chạy tại đường dẫn `/Bo_nao_thu_nhat/`. Mỗi lần có thay đổi
+được đẩy lên nhánh `work`, GitHub Actions sẽ tự động build và triển khai website lên
+GitHub Pages. Bạn cũng có thể chạy workflow **Deploy to GitHub Pages** thủ công từ
+tab **Actions**.
+
+Trong phần **Settings → Pages** của repository, chọn **GitHub Actions** làm nguồn
+triển khai.
+
 ## Tùy chỉnh thông tin cửa hàng
 
 - Sản phẩm và giá bán nằm trong mảng `products` ở đầu file `src/main.jsx`.
